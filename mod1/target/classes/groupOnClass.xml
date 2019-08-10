@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="nana">
+    <test name="tart">
+        <groups>
+            <run>
+                <include name="c2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.dtxy.testng.groups.GroupOnClass1"/>
+            <class name="com.dtxy.testng.groups.GroupOnClass2"/>
+            <class name="com.dtxy.testng.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+</suite>

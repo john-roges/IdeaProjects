@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="part">
+    <test name="arm">
+        <classes>
+            <parameter name="name" value="admin"/>
+            <parameter name="age" value="25"/>
+            <class name="com.dtxy.testng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+</suite>
