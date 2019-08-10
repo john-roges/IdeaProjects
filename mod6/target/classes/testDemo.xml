@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="套件名">
+    <test name="测试名">
+        <classes>
+            <class name="com.dtxy.testreport.testDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="tolog"/>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+
+    <listeners>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.dtxy.testreport.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>
